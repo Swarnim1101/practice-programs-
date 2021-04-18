@@ -1,1 +1,36 @@
+#include <stdio.h>
 
+int main() {
+    int a;
+    
+    printf("Enter a number to choose (from 1 to 5): ");
+    scanf("%d", &a);
+   
+    switch(a)
+    {
+        
+        case 1:
+            printf("Enjoy a Burger today \n just for Rs 129");
+            break;
+            
+        case 2:
+            printf("Enjoy a Sandwich today \n just for Rs 149");
+            break;
+            
+        case 3:
+            printf("Enjoy a Pizza today \n just for Rs 239");
+            break;
+        case 4:
+            printf("Enjoy French Fries today \n just for Rs 99");
+            break;
+            
+        case 5:
+            printf("Enjoy Pasta today \n just for Rs 179");
+            break;
+            
+        default:
+            printf("Error! Invalid choice! ");
+    }
+
+    return 0;
+}
